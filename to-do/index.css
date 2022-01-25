@@ -1,0 +1,34 @@
+body{
+    background-color: aquamarine;
+}
+.container{
+    padding: 1em 5em 5em 5em;
+    margin: 1em 5em 5em 5em;
+    text-align: center;
+    color: black;
+}
+.formulario input{
+    border: none;
+    height: 3em;
+    width: 15em;
+    border-radius: 20px;
+    text-align: center;
+}
+.formulario button{
+    border: cadetblue;
+    padding: 1em;
+    border-radius: 15px;
+    background-color: cadetblue;
+}
+#check{
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+#check input{
+    height: 1em;
+    width: 1.5em;
+}
+:checked + label{
+    text-decoration: line-through;
+    color: darkblue;
+}
