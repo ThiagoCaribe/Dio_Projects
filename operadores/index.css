@@ -1,0 +1,20 @@
+body{
+    background-color: burlywood;
+    justify-content: center;
+}
+.titulo{
+    margin: 1em;
+}
+.inputs{
+    width: 25em;
+    display: flex;
+    flex-direction: column;
+}
+.inputs input{
+    height: 2em;
+    margin: 1em;
+    
+}
+.result{
+    margin: 1em;
+}
